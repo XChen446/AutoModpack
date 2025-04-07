@@ -12,12 +12,16 @@ on:
         type: string
         required: false
         default: ''
-#      # [FEATURE] MIXIN_AUDITOR
-#      mixin_audit:
-#        description: run mixin audit for Minecraft server after build
-#        type: boolean
-#        required: false
-#        default: false
+      # [FEATURE] MIXIN_AUDITOR
+      mixin_audit:
+        description: run mixin audit for Minecraft server after build
+        type: boolean
+        required: false
+        default: false
+      branchname:
+        description: 'Branch name to build'
+        required: false
+        default: 'main'
 
 jobs:
   build:
