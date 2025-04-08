@@ -12,4 +12,3 @@ jobs:
     # [FEATURE] MIXIN_AUDITOR
     with:
       mixin_audit: true
-      branchname: 'velocity-dev'
