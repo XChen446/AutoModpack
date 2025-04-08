@@ -18,10 +18,6 @@ on:
         type: boolean
         required: false
         default: false
-      branchname:
-        description: 'Branch name to build'
-        required: false
-        default: 'main'
 
 jobs:
   build:
